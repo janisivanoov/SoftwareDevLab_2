@@ -4,10 +4,10 @@ using namespace std;
 
 const int PI = 3.14; //setting the PI as a constant
 
-double sumToNumbers(double num1, double num2);
-double areaOfCircle(double radius);
-double circumferenceOfCircle(double radius);
-double priceIncludingVAT(double price, int vat);
+double sumToNumbers(double num1, double num2); // Returns the sum of the two numbers
+double areaOfCircle(double radius); // Returns the area of a circle given the radius
+double circumferenceOfCircle(double radius); // Returns the circumference of a circle given the radius
+double priceIncludingVAT(double price, int vat); // Returns the price including the vat (given as %)
 
 void menu();
 
@@ -76,6 +76,7 @@ int main(){
 
     case 5:
         break;
+
     //Catching incorrect or unknown input
     default:
 
